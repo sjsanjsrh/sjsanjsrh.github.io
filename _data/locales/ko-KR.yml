@@ -3,9 +3,9 @@
 # ----- Commons label -----
 
 layout:
-  post: 포스트
-  category: 카테고리
-  tag: 태그
+  post: Post
+  category: Category
+  tag: Tag
 
 # The tabs of sidebar
 tabs:
@@ -19,7 +19,7 @@ tabs:
 # the text displayed in the search bar & search results
 search:
   hint: 검색
-  cancel: 취소
+  cancel: Cancel
   no_results: 검색 결과가 없습니다.
 
 panel:
