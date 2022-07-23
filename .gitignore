@@ -20,5 +20,5 @@ node_modules
 package-lock.json
 
 .vscode
-./note.txt
-./Gemfile.lock
+note.txt
+Gemfile.lock
