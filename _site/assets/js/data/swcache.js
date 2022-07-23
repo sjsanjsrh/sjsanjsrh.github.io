@@ -44,7 +44,7 @@ const resource = [
 const allowedDomains = [
   
 
-  'sinduy.com',
+  'localhost:4000',
 
   
 
