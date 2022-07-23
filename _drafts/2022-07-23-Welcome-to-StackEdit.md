@@ -6,25 +6,9 @@ categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [TAG]     # TAG names should always be lowercase
 math: true
 mermaid: true
+comments: false
 ---
 
-```yml
-layout: post # post, page 중 하나를 넣어 이것이 
-# 한 페이지에 속하는 블로그 포스트인지, 
-# 홈페이지를 구성하는 하나의 큰 페이지인지를 결정한다.
-title: "제목" # 포스트나 페이지의 제목을 넣는다.
-date: 2022-07-23 22:14:35 +0900 # 생성일
-last_modified_at: 2022-07-23 22:44:00 +0900 # 변경일
-categories: [TOP_CATEGORIE, SUB_CATEGORIE] # 어느 페이지에 속하는지를 표시한다.
-excerpt: "요약문" # 이 페이지에 대한 요약문
-tags: [TAG] # 태그를 지정할 수 있다.
-image: # so-simple-theme 에서 글 맨 위에 노출될 큰 사진을 결정할 때 쓴다. 기본 폴더는 images.
-  feature: test.jpg # 사진 파일 이름
-  credit: Me # 사진 제작자 및 저작권자
-  creditlink: me.org # 저작권자의 홈페이지이거나 이 사진을 직접 구할 수 있는 링크
-share: true # so-simple-theme 의 사이드바에 공유 버튼이 추가된다.
-comments: true # 블로그 포스트 하나하나마다 개별적으로 disqus 댓글 버튼을 추가해줄 수 있다.
-```
 # Welcome to StackEdit!
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
