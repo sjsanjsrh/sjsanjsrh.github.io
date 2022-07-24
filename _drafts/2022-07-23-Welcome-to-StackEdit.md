@@ -6,7 +6,8 @@ categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [TAG]     # TAG names should always be lowercase
 math: true
 mermaid: true
-comments: false
+comments: true
+comment-type: disqus  # [ utterances | disqus ]
 ---
 
 # Welcome to StackEdit!
