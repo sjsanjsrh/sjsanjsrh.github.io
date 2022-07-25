@@ -88,8 +88,8 @@ border-radius: 4px;
   <div id="disqus_thread"></div>
   <script>
       var disqus_config = function () {
-      this.page.url = "blog.sinduy.com"; 
-      this.page.identifier = encodeURI("{{page.id}}");
+        this.page.url = "blog.sinduy.com"; 
+        this.page.identifier = encodeURI("{{page.id}}".trim());
       };
       
       (function() {
