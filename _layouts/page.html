@@ -82,14 +82,14 @@ border-radius: 4px;
     </script>
   </div>
   {% endif %}
-
+  {{page.id}}
   {% if page.comment-type == 'disqus' %}
   <!-- Disqus -->
   <div id="disqus_thread"></div>
   <script>
       var disqus_config = function () {
       this.page.url = "blog.sinduy.com"; 
-      this.page.identifier = "{{page.id}}";
+      this.page.identifier = encodeURI("{{page.id}}");
       };
       
       (function() {
