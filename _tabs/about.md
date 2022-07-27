@@ -15,6 +15,7 @@ last_modified_at: 2022-07-23 23:54:00 +0900
         let end = new Date("2023-04-01 00:00:00 +0900");
         let remain = ((end - today) / 864 + 0.5).toFixed()/100000;
         document.getElementById("remainDuty").innerText=remain.toString().padEnd(9,'0');
-    }
+    };
+    remainDuty();
     setInterval(remainDuty, 1000);
 </script>
