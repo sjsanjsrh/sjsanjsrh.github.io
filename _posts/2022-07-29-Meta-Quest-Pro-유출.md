@@ -52,13 +52,13 @@ Quest 2와의 호환은 어려워 보인다고 주장합니다.
 
 아이트래킹 시스템의 경우 모든 센서와 IR LED는 아이컵에 존제합니다.
 
-> ![Esker-eye.png]()
+> ![Esker-eye](https://user-images.githubusercontent.com/16241081/181791259-f5943d6c-35b0-49be-a091-91484685d1bd.PNG)
 
 페이셜트레킹시스템의 경우 모든 센서와 IR LED는 HMD 하우징 아래의 노즈 갭 옆과 양쪽 렌즈 중앙의 근접센서 근처에 있습니다.
 
 |  |  |
 |--|--|
-| ![Esker-face1.png]() | ![Esker-face2.png]() |
+| ![Esker-face1](https://user-images.githubusercontent.com/16241081/181791292-75fc974a-f0a4-4694-91f6-e31884c30acb.PNG) | ![Esker-face2](https://user-images.githubusercontent.com/16241081/181791301-12fcbfb6-1b59-4a34-9d3c-88e29b4cbbbe.png) |
 
 ## Counter-rotated Display
 
