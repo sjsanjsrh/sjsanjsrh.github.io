@@ -5,7 +5,7 @@ categories: [디바이스, VR]
 tags: [Meta, Project Cambria, Quest Pro]
 ---
 원본 기사 : [Project Cambria: Meta Quest Pro launch date, pricing, specifications and CAD renders surface](https://www.notebookcheck.net/Project-Cambria-Meta-Quest-Pro-launch-date-pricing-specifications-and-CAD-renders-surface.637049.0.html)  
-[https://sadlyinreality.com/](https://sadlyinreality.com/)  
+[The Final Meta Quest Pro Analysis](https://sadlyinreality.com/the-final-meta-quest-pro-analysis/)  
 이 글은 원문의 기사를 번역하고, 필자의 의견을 덧붙여서 작성되었습니다. -- 수정중..
 
 # 프로젝트 캄브리아
@@ -25,14 +25,14 @@ Quest 2와의 호환은 어려워 보인다고 주장합니다.
     - 2,160 x 2,160 per eye (1,800 x 1,920 rendered per eye)
     - 향상된 색영역을 위한 [Quantum Dot layer](https://www.samsungdisplay.com/kor/tech/quantum-dot.jsp)
     - [local dimming](https://news.lgdisplay.com/kr/2016/01/local-dimming/) 을 위한 MiniLED 백라이트 (점광원 백라이트)
-    - FoV 향상을 위한 21도 꺾인 배치 [Counter-rotated Display]({{page.url}}#counter-rotated-display)
+    - FoV 향상을 위한 21도 꺾인 배치 [Counter-rotated Display](#counter-rotated-display)
     - 커스텀 펜케이크 렌즈
-- 10 개의 센서와 Mixed Reality를 위한 IR Depth Projector
+- [10 개의 센서](#페이셜트레킹-아이트레킹)와 Mixed Reality를 위한 IR Depth Projector
 - (2) "Canyon" – 640 x 480 (IOT, 위치트레킹, 핸드트레킹)
 - (2) "Glacier" – 1,280 x 1,024 (Depth, 패스스루, 위치트레킹, 핸드트레킹)
 - (1) “Teton” – 2,328 x 1,748 (16 MP RGB 패스스루 오버레이)
 - (5) “Esker” – 400 x 400 (페이셜트레킹, 아이트레킹)
-- WiFi 6E 호환
+- [WiFi 6E 호환](#vr-에어브릿지)
 - 향상된 공간 오디오
 - 5,000 mAh 리튬이온 배터리 (충전도커 이용)
 
@@ -40,9 +40,9 @@ Quest 2와의 호환은 어려워 보인다고 주장합니다.
 
 - Qualcomm 662 SoC
 - 독립형 6 DoF 추적을 위한 3개의 IR 카메라
-- 비분리형 3,200mAh 배터리
-- HD 햅틱(핸들당 여러 액추에이터)
-- 압력 센서
+- [비분리형 3,200mAh 배터리](#비분리형-3200mah-배터리)
+- [HD 햅틱](#hd-햅틱)(핸들당 여러 액추에이터)
+- [압력 센서](#압력-센서)
 
 # Meta Quest Pro 해드셋
 
@@ -73,14 +73,19 @@ Quest 2와의 호환은 어려워 보인다고 주장합니다.
 
 # Starlet 컨트롤러
 
-|  |  |
-|--|--|
-| ![Starlet](https://sadlyinreality.com/wp-content/uploads/2022/07/D5F55E14-CDEA-4239-BE4A-C02E0899AAF9_1_102_o-1024x699.jpeg) | ![Starlet배터리](https://sadlyinreality.com/wp-content/uploads/2022/07/image-9.png) |
+![Starlet](https://sadlyinreality.com/wp-content/uploads/2022/07/D5F55E14-CDEA-4239-BE4A-C02E0899AAF9_1_102_o-1024x699.jpeg)
 
-Starlet 컨트롤러는 IR카메라를 이용해서 공간추적을 하기 때문에 Snapdragon 662와 같은 온보드 SoC가 탑제 되있어 기존의 AA 배터리로는 감당이 불가능해 도킹 충전식 3200mAh 배터리를 사용합니다.  
+## 비분리형 3,200mAh 배터리
+
+Starlet 컨트롤러는 IR카메라를 이용해서 공간추적을 하기 때문에 Snapdragon 662와 같은 온보드 SoC가 탑제 되있어 기존의 AA 배터리로는 전력이 부족해 도킹 충전식 3200mAh 배터리를 사용합니다.  
+
+![Starlet배터리](https://sadlyinreality.com/wp-content/uploads/2022/07/image-9.png)
+
 컨트롤러 측면에서 도커충전기를 위한 3개의 접점을 볼 수 있습니다.
 
 > ![도크](https://sadlyinreality.com/wp-content/uploads/2022/07/image-7-1024x613.png)
+
+## HD 햅틱
 
 여러 햅틱 컨트롤러로 고품질 햅틱을 구현합니다.
 
@@ -91,9 +96,9 @@ Starlet 컨트롤러는 IR카메라를 이용해서 공간추적을 하기 때�
 > ![액추에이터](https://sadlyinreality.com/wp-content/uploads/2022/07/image-8-1024x787.png)
 > 메인 트리거 내의 LRA 액추에이터 및 위치/힘 센서
 
-Cambria 컨트롤러에는 핸들 바닥에 센서 "혼합 현실 또는 VR의 책상에 그리기"와 관련이 있다고 추측했습니다.
+## 압력 센서
+
+컨트롤러에는 손잡이 바닥에 있는 압력 센서는 "혼합 현실 또는 VR의 책상에 그리기" 와 관련이 있다고 추측했습니다.
 
 > ![압력센서](https://sadlyinreality.com/wp-content/uploads/2022/07/image-6.png)
 > Starlet 바닥에 압력 센서가 있습니다.
-
-[The Final Meta Quest Pro Analysis](https://sadlyinreality.com/the-final-meta-quest-pro-analysis/)
