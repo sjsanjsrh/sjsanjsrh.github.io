@@ -72,13 +72,13 @@ Quest 2와의 호환은 어려워 보인다고 주장합니다.
 
 # Starlet 컨트롤러
 
-![Starlet](https://sadlyinreality.com/wp-content/uploads/2022/07/D5F55E14-CDEA-4239-BE4A-C02E0899AAF9_1_102_o-1024x699.jpeg)
+> ![Starlet](https://sadlyinreality.com/wp-content/uploads/2022/07/D5F55E14-CDEA-4239-BE4A-C02E0899AAF9_1_102_o-1024x699.jpeg)
 
 ## 비분리형 3,200mAh 배터리
 
 Starlet 컨트롤러는 IR카메라를 이용해서 공간추적을 하기 때문에 Snapdragon 662와 같은 온보드 SoC가 탑제 되있어 기존의 AA 배터리로는 전력이 부족해 도킹 충전식 3200mAh 배터리를 사용합니다.  
 
-![Starlet배터리](https://sadlyinreality.com/wp-content/uploads/2022/07/image-9.png)
+> ![Starlet배터리](https://sadlyinreality.com/wp-content/uploads/2022/07/image-9.png)
 
 컨트롤러 측면에서 도커충전기를 위한 3개의 접점을 볼 수 있습니다.
 
