@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     function changeTime() {
         let today = new Date();
-        let end = new Date("2023-04-01 00:00:00 +0900");
+        let end = new Date("2023-04-01 09:00:00 +0900");
 
         let second = ((end - today) / 1000).toFixed();
         let minute = (second / 60).toFixed();
